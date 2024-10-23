@@ -1,4 +1,5 @@
 **Credit Scoring Model**
+
 **Project Overview**
 This project focuses on developing a credit scoring model using historical customer data. The goal of the project is to predict the likelihood of a customer defaulting on a loan, allowing for more informed lending decisions by financial institutions. We applied data preprocessing techniques to handle missing values and built a logistic regression model to predict loan defaults. The project includes a comprehensive analysis of the dataset and the application of machine learning techniques to derive meaningful insights.
 
@@ -22,14 +23,13 @@ Handling Missing Data: Missing values in the dataset were handled by filling the
 Feature Selection: The customer ID column was dropped as it does not contribute to the predictive capabilities of the model.
 2. Model Building
 The primary model used in this project is Logistic Regression, a classification algorithm well-suited for binary classification tasks such as predicting loan defaults. This model was chosen for its simplicity and effectiveness in scenarios where the target variable is binary.
-
 3. Model Evaluation
 To assess the performance of the logistic regression model, the following evaluation metrics were used:
-
 Accuracy Score: The percentage of correctly predicted instances.
 Confusion Matrix: A matrix that highlights true positives, true negatives, false positives, and false negatives.
 Classification Report: A detailed breakdown of precision, recall, and F1-score to provide insights into the model's performance.
-Findings
+
+**Findings**
 
 Model Performance: The logistic regression model provided a good baseline for predicting loan defaults. Accuracy and other metrics from the confusion matrix and classification report indicated that the model performs adequately in distinguishing between defaulters and non-defaulters.
 Data Insights: Features such as the number of derogatory records and credit inquiries in the last six months played a significant role in predicting the likelihood of default.

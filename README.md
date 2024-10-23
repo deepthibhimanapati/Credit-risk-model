@@ -7,13 +7,13 @@ This project focuses on developing a credit scoring model using historical custo
 
 The dataset used in this project contains customer credit information, which includes various financial attributes. Key features include:
 
-TARGET: The binary target variable where 1 represents a customer defaulting on the loan and 0 represents no default.
-DerogCnt: Count of derogatory records on file.
-CollectCnt: Number of collection records.
-BanruptcyInd: Indicator for whether the customer has filed for bankruptcy.
-InqCnt06: Number of credit inquiries in the last 6 months.
-TLDel3060Cnt24: Count of 30-60 days delinquent payments over the last 24 months.
-TLDel90Cnt24: Count of 90+ days delinquent payments in the last 24 months.
+TARGET: The binary target variable where 1 represents a customer defaulting on the loan and 0 represents no default;
+DerogCnt: Count of derogatory records on file;
+CollectCnt: Number of collection records;
+BanruptcyInd: Indicator for whether the customer has filed for bankruptcy;
+InqCnt06: Number of credit inquiries in the last 6 months;
+TLDel3060Cnt24: Count of 30-60 days delinquent payments over the last 24 months;
+TLDel90Cnt24: Count of 90+ days delinquent payments in the last 24 months;
 The dataset consists of several additional features related to customer credit behavior and history, which are crucial for predicting creditworthiness.
 
 **Methods Applied**
